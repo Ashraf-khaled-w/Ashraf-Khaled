@@ -14,7 +14,7 @@ function HeroSection() {
       >
         <div id="heroText" className="max-w-3xl">
           <h1 className="text-4xl  sm:text-5xl md:text-6xl font-bold mb-4">
-            Hi, I'm <span className="text-[#94B49F]">Ashraf</span>
+            Hi, I'm <span className="text-[#94B49F]">Ashraf</span>{" "}
             <i class="fa-solid fa-hand fa-shake text-[#ffca28]"></i>
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-8">
