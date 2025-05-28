@@ -6,10 +6,10 @@ function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navItems = [
-    { path: "", text: "Home", icon: "fa-solid fa-house" },
-    { path: "/projects", text: "Projects", icon: "fa-solid fa-folder" },
-    { path: "/contact", text: "Contact", icon: "fa-solid fa-address-book" },
-    { path: "/about", text: "About", icon: "fa-solid fa-user" },
+    { path: "#hero", text: "Home", icon: "fa-solid fa-house" },
+    { path: "#projects", text: "Projects", icon: "fa-solid fa-folder" },
+    { path: "#contact", text: "Contact", icon: "fa-solid fa-address-book" },
+    { path: "#about", text: "About", icon: "fa-solid fa-user" },
   ];
 
   return (

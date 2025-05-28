@@ -1,0 +1,135 @@
+.centerWrapper {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #222831;
+    padding: 3rem;
+}
+
+.slideshow {
+    background: #181818;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    padding: 2.5rem 2rem;
+    min-width: 340px;
+    max-width: 400px;
+    text-align: center;
+    color: #fff;
+}
+
+.projectCard {
+    margin: 1.5rem 0;
+    padding: 1.5rem 1rem;
+    background: #23272f;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+    transition: opacity 0.3s;
+    opacity: 1;
+}
+
+.fade {
+    opacity: 0;
+}
+
+.links {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.links a {
+    color: #61dafb;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border 0.2s, color 0.2s;
+}
+
+.links a:hover {
+    color: #fff;
+    border-bottom: 2px solid #61dafb;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.controls button {
+    background: #61dafb;
+    color: #181818;
+    border: none;
+    border-radius: 6px;
+    padding: 0.5rem 1.2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.controls button:hover {
+    background: #21a1f3;
+}
+
+.imgWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.projectImg {
+    width: 160px;
+    height: 160px;
+    object-fit: contain;
+    border-radius: 12px;
+    background: #222;
+}
+
+.techStack {
+    margin: 0.5rem 0 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.techItem {
+    background: #282c34;
+    color: #61dafb;
+    padding: 0.2rem 0.7rem;
+    border-radius: 12px;
+    font-size: 0.9rem;
+}
+
+.sectionTitle {
+    width: 100%;
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #fff;
+    margin-bottom: 2rem;
+    font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+}
+
+.featureList {
+    text-align: left;
+    margin: 1rem auto 1rem auto;
+    padding-left: 1.2rem;
+    max-width: 320px;
+    color: #bfc9d1;
+    font-size: 1rem;
+}
+
+.featureList li {
+    margin-bottom: 0.4rem;
+    line-height: 1.5;
+    list-style: disc inside;
+}

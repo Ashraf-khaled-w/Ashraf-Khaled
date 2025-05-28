@@ -1,0 +1,69 @@
+.contactSection {
+    background: linear-gradient(135deg, #232526 0%, #393e46 100%);
+    padding: 3.5rem 1rem 3rem 3rem;
+    text-align: center;
+    border-radius: 24px;
+    margin: 2rem auto 2rem auto;
+    max-width: 700px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactTitle {
+    color: #ffca28;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+    text-shadow: 0 2px 8px #18181855;
+}
+
+.contactSubtitle {
+    color: #bfc9d1;
+    font-size: 1.2rem;
+    margin-bottom: 2.2rem;
+    font-weight: 500;
+}
+
+.socialLinks {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 1.5rem;
+}
+
+.socialIcon {
+    color: #fff;
+    font-size: 2.7rem;
+    background: #222831;
+    border-radius: 50%;
+    padding: 0.7rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    box-shadow: 0 2px 12px #18181855;
+    transition:
+        color 0.2s,
+        background 0.2s,
+        transform 0.2s,
+        box-shadow 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.socialIcon:hover {
+    color: #222831;
+    background: #ffca28;
+    transform: translateY(-6px) scale(1.12);
+    box-shadow: 0 6px 24px #ffca2855;
+}
+
+/* In your main App.css or Home.module.css */
+.homePageBg {
+    background: linear-gradient(120deg, #222831 0%, #393e46 100%);
+    min-height: 100vh;
+    width: 100%;
+}

@@ -1,15 +1,26 @@
 import React from "react";
 import styles from "./Home.module.css";
 import HeroSection from "../../components/HeroSection/HeroSection";
-import AboutSec from "../../components/AboutSec/AboutSec"; // Assuming you have an AboutSec component
+import AboutSec from "../../components/AboutSec/AboutSec";
+import ProjectSec from "../../components/ProjectSec/ProjectSec";
+import ContactSec from "../../components/ContactSec/ContactSec";
 
 function Home() {
   return (
-    // The div with background color is removed as HeroSection now handles its own background
     <>
       <div>
-        <HeroSection />
-        <AboutSec />
+        <section id="hero">
+          <HeroSection />
+        </section>
+        <section id="about">
+          <AboutSec />
+        </section>
+        <section id="projects">
+          <ProjectSec />
+        </section>
+        <section id="contact">
+          <ContactSec />
+        </section>
       </div>
     </>
   );

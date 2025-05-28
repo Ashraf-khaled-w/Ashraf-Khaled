@@ -5,10 +5,18 @@ function Footer() {
 
     // Replace with your actual social media links
     const socialLinks = [
-        { name: 'GitHub', icon: 'fa-brands fa-github', url: 'https://github.com/yourusername' },
-        { name: 'LinkedIn', icon: 'fa-brands fa-linkedin', url: 'https://linkedin.com/in/yourusername' },
-        { name: 'Twitter', icon: 'fa-brands fa-twitter', url: 'https://twitter.com/yourusername' },
-        // Add more social links if needed
+      {
+        name: "GitHub",
+        icon: "fa-brands fa-github",
+        url: "https://github.com/Ashraf-khaled-w",
+      },
+      {
+        name: "LinkedIn",
+        icon: "fa-brands fa-linkedin",
+        url: "https://www.linkedin.com/in/ashraf-khaled-663299293/",
+      },
+
+      // Add more social links if needed
     ];
 
     return (

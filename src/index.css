@@ -1,4 +1,9 @@
 @import "tailwindcss";
-body{
-    font-family: "Dosis", sans-serif; 
+
+body {
+    font-family: "Dosis", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
 }
