@@ -1,12 +1,21 @@
-# React + Vite
+# 👨‍💻 Ashraf Khaled – Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my **official developer portfolio** built with **React**, **Vite**, and **Tailwind CSS**. It’s a fully responsive, modern, and clean portfolio to showcase my skills, projects, and web development journey.
 
-Currently, two official plugins are available:
+## 📸 Screenshots
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Ashraf Khaled Sulaiman](https://github.com/user-attachments/assets/6251b7ba-2bf7-477d-b2d7-b14c7d189477)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- ⚛️ Built with **React (Functional Components)**
+- 💨 Styled using **Tailwind CSS**
+- ⚡ Powered by **Vite** for blazing-fast performance
+- 🖼️ Dynamic project and skill sections using JSON/data files
+- 📱 Fully responsive and mobile-friendly layout
+- 🧭 Navigation with **React Router**
+- 💼 Designed to attract clients and job opportunities
+
+## 📁 Folder Structure
+
