@@ -30,7 +30,7 @@ function HeroSection() {
       <div id="heroButtons">
         <Button
           text="See My Resume"
-          onClick={() => window.open("/Ashraf_Khaled_CV.pdf", "_blank")}
+          onClick={() => window.open("/Ashraf_Khaled_FrontEnd-Software-Dev.pdf", "_blank")}
         />
         <Button
           text="View Source Code"
