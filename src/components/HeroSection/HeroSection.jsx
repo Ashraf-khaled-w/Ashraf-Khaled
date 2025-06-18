@@ -28,8 +28,10 @@ function HeroSection() {
         />
       </div>
       <div id="heroButtons">
-        <Button text="Get Started" />
-        <Button text="See my resume" />
+        <Button
+          text="See My Resume"
+          onClick={() => window.open("/Ashraf_Khaled_CV.pdf", "_blank")}
+        />
         <Button
           text="View Source Code"
           onClick={() =>
