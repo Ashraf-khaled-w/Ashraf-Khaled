@@ -31,7 +31,7 @@ function HeroSection() {
         <Button
           text="See My Resume"
           onClick={() =>
-            window.open("public/Ashraf_Khaled_FrontEnd-Software-Developer.pdf", "_blank")
+            window.open("/Ashraf_Khaled_FrontEnd-Software-Developer.pdf", "_blank")
           }
         />
         <Button
